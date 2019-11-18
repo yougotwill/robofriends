@@ -2,6 +2,9 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = (props) => {
+  if (true) {
+    throw new Error('NOOOOOOOOOO!');
+  }
   return (
     <div>
       {
